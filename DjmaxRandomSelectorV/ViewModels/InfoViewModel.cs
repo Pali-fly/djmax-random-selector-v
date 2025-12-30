@@ -7,9 +7,10 @@ namespace DjmaxRandomSelectorV.ViewModels
 {
     public class InfoViewModel : Screen
     {
-        private const string GITHUB_PAGE_URL = "https://github.com/wowvv0w/djmax-random-selector-v";
-        private const string BUG_REPORT_URL = "https://github.com/wowvv0w/djmax-random-selector-v/issues";
-
+        private const string GITHUB_PAGE_URL = "https://github.com/Pali-fly/djmax-random-selector-v";
+        private const string BUG_REPORT_URL = "https://github.com/Pali-fly/djmax-random-selector-v/issues";
+        private const string ORIGIN_GITHUB_PAGE_URL = "https://github.com/wowvv0w/djmax-random-selector-v";
+        private const string ORIGIN_BUG_REPORT_URL = "https://github.com/wowvv0w/djmax-random-selector-v/issues";
         public string CurrentVersion { get; }
         public string LastestVersion { get; }
         public string AllTrackVersion { get; }
@@ -26,6 +27,10 @@ namespace DjmaxRandomSelectorV.ViewModels
             AppdataVersion = "Appdata Version : " + container.AppdataVersion;
         }
 
+        public void OpenOriginalGithubPage()
+        {
+            Process.Start("explorer.exe", ORIGIN_GITHUB_PAGE_URL);
+        }
         public void OpenGithubPage()
         {
             Process.Start("explorer.exe", GITHUB_PAGE_URL);
