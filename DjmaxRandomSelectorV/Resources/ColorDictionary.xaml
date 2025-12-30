@@ -357,7 +357,7 @@
         <GradientStop Color="#59212e" Offset="0.501"/>
         <GradientStop Color="#59212e" Offset="1"/>
     </LinearGradientBrush>
-    <SolidColorBrush x:Key="FgVLiberty4" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="FgVLiberty4" Color="#4F4A3A"/>
     <SolidColorBrush x:Key="FgEmotionalS" Color="#20541D"/>
     <SolidColorBrush x:Key="FgTechnika1" Color="#5E275B"/>
     <SolidColorBrush x:Key="FgTechnika2" Color="#5E2B13"/>
