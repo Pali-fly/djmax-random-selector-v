@@ -206,6 +206,57 @@
             </DrawingGroup>
         </DrawingBrush.Drawing>
     </DrawingBrush>
+    <DrawingBrush x:Key="BgVLiberty4">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#FFFFFF">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#e1d1a5" Thickness="1"/>
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <GeometryGroup>
+                            <LineGeometry StartPoint="0,15" EndPoint="38,15"/>
+                            <LineGeometry StartPoint="0,10" EndPoint="29,10"/>
+                            <LineGeometry StartPoint="0,20" EndPoint="29,20"/>
+                            <LineGeometry StartPoint="72,15" EndPoint="110,15"/>
+                            <LineGeometry StartPoint="81,10" EndPoint="110,10"/>
+                            <LineGeometry StartPoint="81,20" EndPoint="110,20"/>
+                            <LineGeometry StartPoint="63,0" EndPoint="80,12"/>
+                            <LineGeometry StartPoint="47,0" EndPoint="30,12"/>
+                            <LineGeometry StartPoint="63,30" EndPoint="80,18"/>
+                            <LineGeometry StartPoint="47,30" EndPoint="30,18"/>
+                        </GeometryGroup>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#e1d1a5" Thickness="2.5"/>
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <GeometryGroup>
+                            <LineGeometry StartPoint="50,30" EndPoint="95,0"/>
+                            <LineGeometry StartPoint="60,30" EndPoint="15,0"/>
+                            <LineGeometry StartPoint="50,0" EndPoint="95,30"/>
+                            <LineGeometry StartPoint="60,0" EndPoint="15,30"/>
+                        </GeometryGroup>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>                
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#e1d1a5" Thickness="3"/>
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
     <LinearGradientBrush x:Key="BgPremiumTrack" StartPoint="0,0.5" EndPoint="1,0.5">
         <GradientStop Color="#F8BE0C" />
         <GradientStop Color="#FF7900" Offset="1"/>
@@ -306,6 +357,7 @@
         <GradientStop Color="#59212e" Offset="0.501"/>
         <GradientStop Color="#59212e" Offset="1"/>
     </LinearGradientBrush>
+    <SolidColorBrush x:Key="FgVLiberty4" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="FgEmotionalS" Color="#20541D"/>
     <SolidColorBrush x:Key="FgTechnika1" Color="#5E275B"/>
     <SolidColorBrush x:Key="FgTechnika2" Color="#5E2B13"/>
