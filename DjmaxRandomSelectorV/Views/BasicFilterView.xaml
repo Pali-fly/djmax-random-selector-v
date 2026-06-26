@@ -603,6 +603,10 @@
                                     <Setter TargetName="Button" Property="Background" Value="{StaticResource BgVLiberty4}"/>
                                     <Setter TargetName="Button" Property="Foreground" Value="{StaticResource FgVLiberty4}"/>
                                 </DataTrigger>
+                                <DataTrigger Binding="{Binding Name}" Value="V LIBERTY 5">
+                                    <Setter TargetName="Button" Property="Background" Value="{StaticResource BgVLiberty5}"/>
+                                    <Setter TargetName="Button" Property="Foreground" Value="{StaticResource FgVLiberty5}"/>
+                                </DataTrigger>
                                 <DataTrigger Binding="{Binding Name}" Value="EMOTIONAL S.">
                                     <Setter TargetName="Button" Property="Background" Value="{StaticResource BgEmotionalS}"/>
                                     <Setter TargetName="Button" Property="Foreground" Value="{StaticResource FgEmotionalS}"/>

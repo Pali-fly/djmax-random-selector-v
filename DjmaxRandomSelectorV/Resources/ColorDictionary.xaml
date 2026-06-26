@@ -257,6 +257,125 @@
             </DrawingGroup>
         </DrawingBrush.Drawing>
     </DrawingBrush>
+    <DrawingBrush x:Key="BgVLiberty5"
+                  Stretch="Fill"
+                  Viewbox="0,0,110,30"
+                  ViewboxUnits="Absolute"
+                  Viewport="0,0,1,1"
+                  ViewportUnits="RelativeToBoundingBox">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#FFFFFF">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+                <!-- top-left dark red -->
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="0,0"
+                                             GradientOrigin="0,0"
+                                             RadiusX="0.50"
+                                             RadiusY="1.00">
+                            <GradientStop Color="#340403" Offset="0"/>
+                            <GradientStop Color="#88340403" Offset="0.42"/>
+                            <GradientStop Color="#00340403" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+                <!-- bottom-center left blue-gray -->
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="0.40,1.05"
+                                             GradientOrigin="0.40,1.05"
+                                             RadiusX="0.42"
+                                             RadiusY="0.82">
+                            <GradientStop Color="#D95A738C" Offset="0"/>
+                            <GradientStop Color="#995A738C" Offset="0.42"/>
+                            <GradientStop Color="#005A738C" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+                <!-- bottom-center right violet-gray -->
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="0.60,1.08"
+                                             GradientOrigin="0.60,1.08"
+                                             RadiusX="0.32"
+                                             RadiusY="0.60">
+                            <GradientStop Color="#D975658E" Offset="0"/>
+                            <GradientStop Color="#9975658E" Offset="0.42"/>
+                            <GradientStop Color="#0075658E" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+                <!-- right top blue wash -->
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="0.98,0.12"
+                                             GradientOrigin="0.88,0.12"
+                                             RadiusX="0.32"
+                                             RadiusY="0.28">
+                            <GradientStop Color="#C87D9CBC" Offset="0"/>
+                            <GradientStop Color="#777D9CBC" Offset="0.45"/>
+                            <GradientStop Color="#007D9CBC" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+                <!-- right bottom yellow wash -->
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="1.10,0.40"
+                                             GradientOrigin="1.00,0.40"
+                                             RadiusX="0.34"
+                                             RadiusY="0.30">
+                            <GradientStop Color="#C8D8C878" Offset="0"/>
+                            <GradientStop Color="#77D8C878" Offset="0.45"/>
+                            <GradientStop Color="#00D8C878" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+                <!-- right purple base -->
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="1.02,0.30"
+                                             GradientOrigin="0.92,0.30"
+                                             RadiusX="0.26"
+                                             RadiusY="0.32">
+                            <GradientStop Color="#724060" Offset="0"/>
+                            <GradientStop Color="#C0724060" Offset="0.42"/>
+                            <GradientStop Color="#00724060" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,110,30"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
     <LinearGradientBrush x:Key="BgPremiumTrack" StartPoint="0,0.5" EndPoint="1,0.5">
         <GradientStop Color="#F8BE0C" />
         <GradientStop Color="#FF7900" Offset="1"/>
@@ -358,6 +477,52 @@
         <GradientStop Color="#59212e" Offset="1"/>
     </LinearGradientBrush>
     <SolidColorBrush x:Key="FgVLiberty4" Color="#4F4A3A"/>
+    <DrawingBrush x:Key="FgVLiberty5"
+                  Stretch="Fill"
+                  Viewbox="0,0,1,1"
+                  ViewboxUnits="RelativeToBoundingBox"
+                  Viewport="0,0,1,1"
+                  ViewportUnits="RelativeToBoundingBox">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#6C6B6B">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,1,1"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="0,0"
+                                             GradientOrigin="0,0"
+                                             RadiusX="0.85"
+                                             RadiusY="1.05">
+                            <GradientStop Color="#4C3624" Offset="0"/>
+                            <GradientStop Color="#994C3624" Offset="0.35"/>
+                            <GradientStop Color="#004C3624" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,1,1"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <RadialGradientBrush Center="1,1"
+                                             GradientOrigin="1,1"
+                                             RadiusX="0.9"
+                                             RadiusY="1.05">
+                            <GradientStop Color="#594B50" Offset="0"/>
+                            <GradientStop Color="#99594B50" Offset="0.4"/>
+                            <GradientStop Color="#00594B50" Offset="1"/>
+                        </RadialGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,1,1"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
     <SolidColorBrush x:Key="FgEmotionalS" Color="#20541D"/>
     <SolidColorBrush x:Key="FgTechnika1" Color="#5E275B"/>
     <SolidColorBrush x:Key="FgTechnika2" Color="#5E2B13"/>
